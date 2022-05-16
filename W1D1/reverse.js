@@ -7,6 +7,7 @@ function reverse(string) {
         for (let j = string[i].length - 1; j >= 0; j--) {
             reverse += string[i][j];
         }
+        reverse += "\n";
     }
     return reverse;
 }
